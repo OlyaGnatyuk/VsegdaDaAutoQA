@@ -13,7 +13,7 @@ public class Main {
     }
 
     public static double calculateCircleSquare(double radius) {
-        return Math.PI * radius * radius / 4;
+        return Math.PI * radius * radius;
     }
 
     public static double calculateTriangleSquare(double a, double b, double c) {
