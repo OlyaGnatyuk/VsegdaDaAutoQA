@@ -3,12 +3,12 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World я " + System.getProperty("user.name"));
-        System.out.println("Площадь квадрата со стороной 3 = " + calculateSquare(3.0));
+        System.out.println("Площадь квадрата со стороной 3 = " + calculateSquareOfSquare(3.0));
         System.out.println("Площадь круга с радиусом 4 = " + calculateCircleSquare(4.0));
         System.out.println("Площадь треугольника со сторонами 3, 4, 5 = " + calculateTriangleSquare(3.0, 4.0, 5.0));
     }
 
-    public static double calculateSquare(double side) {
+    public static double calculateSquareOfSquare(double side) {
         return side * side;
     }
 
